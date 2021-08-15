@@ -12,6 +12,8 @@ public class Main {
         System.out.println(Account1.getPhoneNumber());
         System.out.println(Account1.getCustomerName());
 
+        Bank bank1=new Bank("bank1",123);
+        bank1.displayInfo(Account1);
 
 
     }
